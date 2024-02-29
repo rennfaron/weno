@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+	<title>Weno Mail</title>
+	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Titillium+Web:400,200,200italic,400italic,600,600italic,700,700italic">
+	<link rel="stylesheet" href="style.css">
+	<!--[if lte IE 8]>
+	<link rel="stylesheet" href="ie8.css" />
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<script src="script/respond.min.js"></script>
+	<![endif]-->
+</head>
+
+<body>
+	<nav class="main">
+		<ul>
+			<li>
+				<button class="close-main" type="button"><span><span>Close </span>Menu</span></button>
+			</li>
+			<li class="sidebar-header"></li>
+			<li class="secure-messages">
+				<h2>Secure Messages</h2>
+				<ul>
+					<li><a class="inbox active" href="javascript:void(0)"><span>Inbox</span><span class="number">7</span></a></li>
+					<li><a class="deleted" href="javascript:void(0)"><span>Deleted</span><span class="number">101</span></a></li>
+					<li><a class="sent" href="javascript:void(0)"><span>Sent</span><span class="number">12</span></a></li>
+				</ul>
+			</li>
+			<li class="weno-savers">
+				<h2>Weno Savers</h2>
+				<ul>
+					<li><button type="button" class="search"><span>Search</span></button></li>
+					<li><a class="posted" href="javascript:void(0)"><span>Posted</span><span class="number">5</span></a></li>
+					<li><a class="saved" href="javascript:void(0)"><span>Saved</span><span class="number">10</span></a></li>
+					<li><a class="expired" href="javascript:void(0)"><span>Expired</span><span class="number">1</span></a></li>
+				</ul>
+			</li>
+			<li class="invite"><a href="javascript:void(0)">Invite New User</a></li>
+			<li class="options">
+				<button type="button"><span>Dave<br>Daverson</span></button>
+				<ul>
+					<li><a href="javascript:void(0)"><span>Contact Weno</span></a></li>
+					<li><a href="javascript:void(0)"><span>Pharmacy</span></a></li>
+					<li><a href="javascript:void(0)"><span>Custom*</span></a></li>
+					<li><a href="javascript:void(0)"><span>Manage Users</span></a></li>
+					<li><a href="javascript:void(0)"><span>Company Profile</span></a></li>
+					<li><a href="javascript:void(0)"><span>My User Profile</span></a></li>
+					<li><a href="javascript:void(0)"><span>Upgrade Account</span></a></li>
+					<li><a href="javascript:void(0)"><span>Sign Out</span></a></li>
+				</ul>
+			</li>
+		</ul>
+	</nav>
+	<nav class="mail">
+		<aside class="alert show">
+			<h1><span>Tutorial</span></h1>
+			<div class="content">
+				<h2>Import Your Entire Address Book!</h2>
+				<p>Importing couldn’t be easier! Upload your address book or company address book in minutes. Import your csv or vcf and we do the rest.</p>
+			</div>
+			<div class="action">
+				<div class="absolute-center">
+					<a class="alert-a" href="javascript:void(0)">Learn More</a>
+				</div>
+			</div>
+			<button class="close" type="button"></button>
+		</aside>
+		<header class="inbox">
+			<button class="open-main" type="button"></button>
+			<div class="headlines">
+				<h1>Inbox</h1>
+				<h2>3 New</h2>
+			</div>
+			<div class="mailbox-actions">
+				<button class="compose" type="button"></button>
+				<button class="address-book" type="button"></button>
+				<button class="search" type="button"></button>
+				<button class="refresh" type="button"></button>
+				<button class="delete" type="button"></button>
+			</div>
+		</header>
+		<ul class="messages">
+			<li class="message">
+				<ul>
+					<li class="message-details">
+						<a class="new attachment" href="javascript:void(0)">
+							<ul>
+								<li class="name">Chuck Sanders</li>
+								<li class="subject">SSN / DOB information for OEE Forms</li>
+								<li class="time">3:28pm</li>
+							</ul>
+						</a>
+					</li>
+					<li class="message-content">
+						<ul>
+							<li class="message-header">
+								<button class="options" type="button">Options</button>
+								<button class="close" type="button"></button>
+							</li>
+							<li class="time-and-report-btn">
+								<time datetime="2013-11-24">Nov. 24</time>
+								<button class="report-misuse" type="button">Report Misuse</button>
+							</li>
+							<li class="info-from">
+								<strong>From:</strong> Tina Goodman, Brooks Bayne, Kevin Pauley, Gene Morris, anemailnotinthesystem@gmail.com
+							</li>
+							<li class="info-cc">
+								<strong>CC:</strong> Chuck Sanders, Federico Balbi
+							</li>
+							<li class="info-subj">
+								<strong>Subj:</strong> Hello Dave - Here are the documents you requested. Email me back with thoughts!
+							</li>
+							<li class="attachments">
+								<span class="number-attachments">5 Attachments</span>
+								<button class="view-attachments" type="button">View</button>
+							</li>
+							<li class="message-body">
+								<p>Hey Dave,</p>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut in nisi velit. Duis eros erat, hendrerit quis semper quis, sagittis vitae felis. Quisque accumsan orci sagittis purus fermentum posuere. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur accumsan nisl sed sagittis pharetra.</p>
+								<p>These two things:</p>
+								<ul>
+									<li>Quisque accumsan orci sagittis purus fermentum</li>
+									<li>Curabitur accumsan nisl sed sagittis pharetra</li>
+								</ul>
+								<p>Thanks,<br>
+								Tina</p>
+							</li>
+							<li class="disclaimer">
+								<p>This message and any files transmitted with it was sent from the vsender's Weno Mail account or from a customer through your "contact us" page on your Weno Site. It may contain information that is PRIVILEGED AND CONFIDENTIAL. It is the property of the the sender and is intended only for the use of the intended recipient. If you have received this Weno Mail in error, do not disseminate, distribute, forward, print or copy this Weno Mail or any of its attachments. Immediately destroy/purge the Weno Mail and all attachments and notify the sender by reply of Weno Mail. Any misuse/abuse may result in disciplinary action and/or legal liability. Unauthorized interception of this Weno Mail is a violation of federal law.</p>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+			<li class="message">
+				<ul>
+					<li class="message-details">
+						<a class="new" href="javascript:void(0)">
+							<ul>
+								<li class="name">Kevin Pauley</li>
+								<li class="subject">Chuck - Can you look over these forms - I need them back asap!</li>
+								<li class="time">Nov. 23</li>
+							</ul>
+						</a>
+					</li>
+					<li class="message-content">
+						<p>Lorem Ipsum</p>
+					</li>
+				</ul>
+			</li>
+			<li class="message">
+				<ul>
+					<li class="message-details">
+						<a class="new" href="javascript:void(0)">
+							<ul>
+								<li class="name">Tina Goodman</li>
+								<li class="subject">New Member answered your request</li>
+								<li class="time">Nov. 20</li>
+							</ul>
+						</a>
+					</li>
+					<li class="message-content">
+						<p>Lorem Ipsum</p>
+					</li>
+				</ul>
+			</li>
+			<li class="message">
+				<ul>
+					<li class="message-details">
+						<a href="javascript:void(0)">
+							<ul>
+								<li class="name">Weno Team</li>
+								<li class="subject">Thank you for joining (placeholder)</li>
+								<li class="time">Nov. 20</li>
+							</ul>
+						</a>
+					</li>
+					<li class="message-content">
+						<p>Lorem Ipsum</p>
+					</li>
+				</ul>
+			</li>
+			<li class="message">
+				<ul>
+					<li class="message-details">
+						<a class="attachment" href="javascript:void(0)">
+							<ul>
+								<li class="name">Tina Goodman</li>
+								<li class="subject">(no subject) ...Hi, Chuck can you send me your</li>
+								<li class="time">Nov. 16</li>
+							</ul>
+						</a>
+					</li>
+					<li class="message-content">
+						<p>Lorem Ipsum</p>
+					</li>
+				</ul>
+			</li>
+			<li class="message">
+				<ul>
+					<li class="message-details">
+						<a href="javascript:void(0)">
+							<ul>
+								<li class="name">Tina Goodman (Group)</li>
+								<li class="subject">Everyone, Here are the annual earnings report for your review ipsum dolor sit amet, consectetur adipiscing elit in convallis interdum odioconsectetur adipiscing elit</li>
+								<li class="time">Nov. 16</li>
+							</ul>
+						</a>
+					</li>
+					<li class="message-content">
+						<p>Lorem Ipsum</p>
+					</li>
+				</ul>
+			</li>
+			<li class="message">
+				<ul>
+					<li class="message-details">
+						<a href="javascript:void(0)">
+							<ul>
+								<li class="name">Tina Goodman</li>
+								<li class="subject">New Member answered your request</li>
+								<li class="time">Nov. 16</li>
+							</ul>
+						</a>
+					</li>
+					<li class="message-content">
+						<p>Lorem Ipsum</p>
+					</li>
+				</ul>
+			</li>
+		</ul>
+	</nav>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="script/script.js"></script>
+</body>
+
+</html>

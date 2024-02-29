@@ -1,0 +1,25 @@
+/* Header */
+.affix-header > header{ border-bottom: 1px solid #e6e6e6; }
+
+/* Sidebar */
+.main{ left: -239px; }
+.show-main .main{ left: 0; }
+.main .options > ul.show{ top: auto; bottom: 100%; }
+
+@media screen and (min-width:641px){
+	
+	/* Header */
+	.affix-header > header{ border-bottom-color: #f3f3f4; }
+	.mailbox-actions button.off{ filter:alpha(opacity=30); }
+	
+}
+
+@media screen and (min-width: 841px){
+	
+	/* Header */
+	#mail-header{ /* fixes ie not rendering empty tag in correct position: */ background-image: url("iehack:///"); }
+	
+	/* Sidebar */
+	.main{ left: 0; }
+		
+}
